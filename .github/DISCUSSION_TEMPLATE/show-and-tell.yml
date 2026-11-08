@@ -1,0 +1,38 @@
+title: "[Failure] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A failure story is the most useful thing you can post here. Keep it anonymised:
+        no employer, client or vendor names you cannot share, no customer data, ranges instead of internal figures.
+  - type: textarea
+    id: what-broke
+    attributes:
+      label: What broke
+      description: What the agent (or the measurement) did, and what it should have done.
+    validations:
+      required: true
+  - type: textarea
+    id: how-found
+    attributes:
+      label: How it was found
+      description: A complaint, a dashboard, a transcript review, a test, by accident?
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: The test that would have caught it
+      description: A regression checkpoint, an eval case, a go-live check. Rough is fine.
+  - type: textarea
+    id: changed
+    attributes:
+      label: What you changed
+  - type: checkboxes
+    id: anonymised
+    attributes:
+      label: Anonymised
+      options:
+        - label: This post contains no employer or client names, no customer data and no exact internal figures.
+          required: true
