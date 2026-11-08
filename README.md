@@ -6,7 +6,8 @@ deployment strategists, forward deployed engineers, and the CX and ops leads who
 The templates are CC BY 4.0 and the linked code is MIT, so everything is free to reuse. Questions,
 failure stories and new assets go in
 [Discussions](https://github.com/LucaDeAng/deployment-strategist-hub/discussions). Posting needs only a
-GitHub account; there is no newsletter and nothing to buy. The web version is at
+GitHub account; there is nothing to buy. New entries also go out on
+[Beyond The Hype](https://lucadeangelis376.substack.com), Luca's Substack. The web version is at
 [genai4business.com/hub](https://genai4business.com/hub).
 
 The examples use Brezzaluce Energia, a fictional Italian utility, so every asset can be read,
