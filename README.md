@@ -41,6 +41,15 @@ deployment review will ask anyway.
   and gradual rollout for a voice or chat agent, and the checks that block a release, AI disclosure
   included.
 
+## Papers
+
+- [**The Inversion: when the customer calls with their own AI agent**](papers/the-inversion.md)
+  ([PDF](papers/the-inversion.pdf), 9 pages, November 2026). Customers' AI agents now phone
+  businesses whose own AI agents answer; the October 2026 protocols for receiving them (PAP, PACT)
+  do not cover the phone. What breaks on a voice line, what a small synthetic lab shows, a voice
+  handshake with a delegated, scoped credential, and a 90-day checklist. Every external claim is
+  sourced in [the-inversion-sources.md](papers/the-inversion-sources.md).
+
 ## Reading
 
 Short list, one line on why each matters. Proposals welcome in Discussions.
