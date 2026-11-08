@@ -26,6 +26,19 @@ run and changed without touching real customer data.
 Each repo has a matching case study at [genai4business.com/work](https://genai4business.com/work)
 with its limits and what I would do differently.
 
+## Benchmarks
+
+Open data, one dated public URL behind every cell, no ranking. Disagree with a cell? Open an issue
+with a public source.
+
+| Benchmark | What it answers | Start here |
+|---|---|---|
+| [agent-platform-benchmark](https://github.com/LucaDeAng/agent-platform-benchmark) | What the public docs of 17 voice and chat AI agent platforms say on 24 criteria a deployment lead checks (evaluation, governance, voice and EU fit), with score ranges, coverage and a study of how agents should be evaluated | `uv run python scripts/benchmark.py check`, then read `docs/scores.md` |
+| [eu-cx-genai-benchmark](https://github.com/LucaDeAng/eu-cx-genai-benchmark) | How visible generative AI is in the customer service of 61 large European companies (chat, voice, disclosure, path to a human), with sensitivity ranges | `uv run python -m eucx.score`, then read `docs/results.md` |
+
+Both measure public visibility, not capability, and both were collected with LLM agents; each README
+says how.
+
 ## Templates
 
 Copy them into your own repo or doc. Each one is a page, and each section asks a question a
